@@ -1,0 +1,32 @@
+.snack {
+  height: calc(100vh - 75px);
+  /* border: 1px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding-top: 100px;
+  padding-left: 20px;
+
+  /* margin: 20px; */
+}
+.itemName {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  margin-top: 18px;
+  font-family: "Nunito", sans-serif;
+  color: #666;
+}
+.addBtn {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+}
+.bottomPart {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  padding-left: 15px;
+}
